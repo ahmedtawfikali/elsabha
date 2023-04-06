@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+header h1{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rebeccapurple;
+}
+.num{
+    margin: 100px auto;
+        width: fit-content;
+        color: white;
+        font-size: 30px;
+}
+button{
+    margin: 100px auto;
+        width: fit-content;
+        display: flex;
+        padding: 15px;
+        border: none;
+        background-color: rebeccapurple;
+        color: white;
+        font-size: 30px;
+        border-radius: 20px;
+}
+.sba{
+color: red;
+    background-color: white;
+    width: fit-content;
+    padding: 21px;
+    border-radius: 30px;
+    margin: 100px auto;
+    opacity: .8;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 19%;
+    left: 50%;display: none;
+}
